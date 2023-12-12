@@ -16,15 +16,14 @@ function App() {
     
 
 
-
-    <Routes>
+<Routes>
   <Route path="/" element={<Homepage />} />
   <Route path="page" element={<Pagea />} />
   <Route path="pageb" element={<Pageb />} />
   <Route path="Movies" element={<Movies />} />
 
  
-</Routes>
+</Routes> 
 
    
     </div>

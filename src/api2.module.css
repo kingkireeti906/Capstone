@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Single+Day&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;0,700;1,700&display=swap');
+
+
+
+/* api2.module.css */
+.newsimage {
+    position: absolute;
+    left: 1000px;
+  
+
+    flex-shrink: 0;
+    top: 20px;
+    border-radius: 19px;
+  }
+  .back{
+    background: rgba(0, 0, 0, 0.74);
+    width: 500px;
+height: 159px;
+flex-shrink: 0;
+position: absolute;
+top: 335px;
+
+  }
+  .mobile{
+    width: 435px;
+height: 80px;
+flex-shrink: 0;
+color: #FFF;
+font-family: Roboto;
+font-size: 25px;
+font-style: normal;
+font-weight: 500;
+line-height: 123.688%; /* 39.58px */
+letter-spacing: 0.64px;
+position: absolute;
+margin:10px;
+left:20px;
+  }
+
+  #update{
+    color: #FFF;
+font-family: Roboto;
+font-size: 18.249px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+position: absolute;
+top:125px;
+left:20px;
+margin:10px;
+  }
+
+  .info{
+    background-color: #FFF;
+    width: 500px;
+    height: 160px;
+   
+text-align: justify;
+font-family: Roboto;
+font-size: 18.25px;
+font-style: normal;
+font-weight: 400;
+line-height: 161.688%; /* 29.508px */
+  }
+  .infotext{
+    color: #272727;
+    position: absolute;
+    margin:20px;
+    height: 120px;
+  }
+  .browse{
+  
+    color: #FFF;
+text-align: center;
+font-family: DM Sans;
+font-size: 23.526px;
+font-style: normal;
+font-weight: 500;
+line-height: 92.2%; /* 21.691px */
+letter-spacing: 0.471px;
+border-radius: 34.777px;
+background: #148A08;
+width: 179px;
+height: 45.12px;
+flex-shrink: 0;
+position: absolute;
+left:260px;
+  }

@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Single+Day&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;1,700&display=swap');
+.container{
+    background: #000;
+    width: 100vw;
+height: 100vh;
+}
+.part1{
+    width: 507px;
+height: 290px;
+flex-shrink: 0;
+border-radius: 19px;
+background: #5746EA;
+position: relative;
+top:20px;
+left: 5px;
+
+}
+.userdetails{
+    position: absolute;
+    left: 160px;
+    top: 40px;
+}
+#name{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 20.947px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 103.188%; /* 38.124px */
+    letter-spacing: 0.739px;
+
+}
+#username{
+    padding-top: 5px;
+    color: #FFF;
+font-family: Roboto;
+font-size: 25.947px;
+font-style: normal;
+font-weight: 600;
+line-height: 103.688%; /* 38.309px */
+letter-spacing: 0.739px;
+}
+#email{
+    
+        padding-top: 5px;
+        color: #FFF;
+    font-family: Roboto;
+    font-size: 20.947px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 113.688%; /* 38.309px */
+    letter-spacing: 0.739px;
+    
+}
+
+/* styles.module.css */
+
+.categories {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow-x: hidden; /* overflow is visible in x-axis */
+    overflow-y: auto; /* Enable vertical scrolling */
+    max-height: 100px; /* Set a maximum height for the container */
+    position:absolute;
+    left: 90px;
+    top:160px;
+   
+    scrollbar-width: thin; /* For Firefox */
+    scrollbar-color: transparent transparent; /* For Firefox */
+  }
+  .categories::-webkit-scrollbar {
+    width: 0; /* Remove scrollbar space */
+    background: transparent; /* Optional: just make scrollbar invisible */
+  }
+  
+  .individualItem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150.515px;
+    height: 46.578px;
+    flex-shrink: 0;
+    border-radius: 36.947px;
+    background: #9F94FF;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 28.15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 105.688%;
+    letter-spacing: 0.563px;
+    text-align: center;
+    margin: 2px;
+  }
+  .categories::-webkit-scrollbar-thumb {
+    background-color: transparent;
+  }
+  .notes{
+    width: 410px;
+height: 460px;
+flex-shrink: 0;
+border-radius: 19px;
+background: #F1C75B;
+position:absolute;
+left:540px;
+top: 20px;
+
+
+  }
+
+
+#note{
+    color: #000;
+font-family: Roboto;
+font-size: 38px;
+font-style: normal;
+font-weight: 600;
+line-height: 105.688%; /* 40.161px */
+letter-spacing: 0.76px;
+position:absolute;
+/* position: relative; */
+top:10px;
+left:50px;
+}
+/* styles.module.css */
+
+/* styles.module.css */
+
+#w3review {
+    background: #F1C75B;
+    color: #000;
+    font-family: Roboto;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 105.688%; /* 22.194px */
+    letter-spacing: 0.84px;
+    position: absolute;
+    width: 370px;
+    height: 360px;
+    flex-shrink: 0;
+    left: 10px;
+    top: 60px;
+    border: fixed; /* Remove the textarea border */
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-color: Transparent;
+    
+
+
+   
+   
+    
+  }
+ 
+  .textarea-noborder .mx-textarea-input {
+    border: none;
+}
+#w3review::-webkit-resizer {
+    display: none;
+  }
+
+
+.part2{
+position: relative;
+width:507px;
+height: 55px;
+flex-shrink: 0;
+border-radius: 19px 19px 0px 0px;
+background: #FF4ADE;
+top:30px;
+left:2px;
+color: #FFF;
+font-family: Roboto;
+font-size: 33px;
+font-style: normal;
+font-weight: 600;
+line-height: 141.688%; /* 46.757px */
+letter-spacing: 0.66px;
+}
+.browse{
+  
+  color: #FFF;
+text-align: center;
+font-family: DM Sans;
+font-size: 23.526px;
+font-style: normal;
+font-weight: 500;
+line-height: 92.2%; /* 21.691px */
+letter-spacing: 0.471px;
+border-radius: 34.777px;
+background: #148A08;
+width: 179px;
+height: 45.12px;
+flex-shrink: 0;
+position: absolute;
+left:1260px;
+top:660px;
+}

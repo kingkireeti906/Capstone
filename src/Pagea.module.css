@@ -1,0 +1,21 @@
+#nextpage{
+    width: 128px;
+  height: 21px;
+  flex-shrink: 0;
+  color: #FFF;
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 26.286px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 92.2%; /* 24.235px */
+  letter-spacing: 0.526px;
+  width: 200px;
+  height: 56px;
+  flex-shrink: 0;
+  border-radius: 38.857px;
+  background: #148A08;
+  position: relative;
+  top:495px;
+  left: 590px;
+  }
